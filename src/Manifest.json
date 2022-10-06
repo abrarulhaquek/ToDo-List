@@ -1,0 +1,10 @@
+{
+    "name": "TodoList",
+    "short_name": "Todolist",
+    "start_url" : "../public/index.html",
+    "display" : "standalome",
+    "background" : "black",
+    "theme_color": "yellow",
+    "orientation": "potrait-primart",
+    "icon":"../public/logo192.png"
+}

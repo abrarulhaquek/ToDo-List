@@ -1,0 +1,183 @@
+body {
+  background-color: #fff;
+  overflow-x: hidden;
+
+  .css-mhc70k-MuiGrid-root > .MuiGrid-item {
+    padding-left: 0px !important;
+    padding-top: 5px !important;
+  }
+  // .css-dpjnhs-MuiInputBase-root-MuiOutlinedInput-root{
+  //   border-radius: 10px !important;
+  //   outline-color: #feefc3 !important;
+
+  // }
+  // .Mui-focused{
+  //   outline-color: #feefc3 !important;
+  // }
+
+  .heading {
+    margin: auto;
+    margin-top: 30px;
+    font-size: 50px;
+    font-weight: 900;
+    text-align: center;
+    color: white;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    border-bottom: 5.5px double black;
+    width: fit-content;
+    border-radius: 10px;
+  }
+  .outer {
+    color: #000000;
+    margin: auto;
+    margin-top: 50px;
+    // padding: 5px;
+    // border: 2px solid #feefc3;
+    width: fit-content;
+    // border-radius: 30px;
+    text-align: center;
+
+    .inputs {
+      width: 700px;
+      text-align: center;
+      border-radius: 30px;
+      font-size: 20px;
+      margin: 10px 5px 5px 0px;
+      // margin-top: 10px;
+    }
+
+    .btns {
+      height: 55px;
+      margin-top: 10px;
+      width: 104px;
+      font-size: 21px;
+      border-radius: 30px;
+    }
+  }
+  .divider {
+    font-size: 24px;
+    font-weight: 100;
+    font-family: cursive;
+    margin-top: 30px;
+  }
+  .css-1ws8119-MuiDivider-root::before,
+  .css-1ws8119-MuiDivider-root::after {
+    border-top: 2px solid #feefc3 !important;
+    // width: 25%;
+  }
+  .outer2 {
+    color: #000000;
+    padding: 30px;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 30px;
+    text-align: center;
+
+    .vdata {
+      color: rgb(0, 0, 0);
+      background-color: white;
+      height: fit-content;
+      word-break: break-all;
+      border: 2px solid #feefc3;
+      border-radius: 20px;
+      padding: 10px;
+      min-height: 20px;
+      .csstopic {
+        margin: 5px;
+        font-size: 25px;
+        font-weight: 600;
+        text-transform: uppercase;
+      }
+      .csscontent {
+        margin: 5px;
+        font-size: 18px;
+      }
+      .csscontent::first-letter {
+        text-transform: capitalize;
+      }
+    }
+    span {
+      margin: 5px;
+    }
+    .wrong {
+      border: none;
+      float: right;
+      margin-top: -5px;
+      padding: 2px;
+      border-radius: 30px;
+    }
+  }
+}
+
+// media query
+
+/* For Screen Higher than 1400px */
+@media screen and (min-width: 1401px) {
+  html,
+  body {
+    height: 100%;
+  }
+  html {
+    display: table;
+    margin: auto;
+  }
+  body {
+    display: table-cell;
+    vertical-align: middle;
+    width: 1899px;
+  }
+}
+@media screen and (min-width: 1200px) and (max-width: 1326px) {
+}
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+}
+@media screen and (min-width: 768px) and (max-width: 991px) {
+}
+@media screen and (min-width: 615px) and (max-width: 760px) {
+  .inputs {
+    width: 600px !important;
+  }
+}
+@media screen and (min-width: 505px) and (max-width: 614px) {
+  .inputs {
+    width: 500px !important;
+  }
+  .btns {
+    display: block !important;
+    margin: auto !important;
+  }
+}
+@media screen and (min-width: 405px) and (max-width: 504px) {
+  .inputs {
+    width: 400px !important;
+  }
+  .btns {
+    display: block !important;
+    margin: auto !important;
+  }
+}
+// @media screen and (min-width: 479px) and (max-width: 549px) {
+// }
+// @media screen and (min-width: 440px) and (max-width: 478px) {
+// }
+// @media screen and (min-width: 306px) and (max-width: 439px) {
+// }
+@media screen and (min-width: 305px) and (max-width: 404px) {
+  .inputs {
+    width: 300px !important;
+  }
+  .btns {
+    display: block !important;
+    margin: auto !important;
+  }
+}
+@media screen and (min-width: 0px) and (max-width: 304px) {
+  .inputs {
+    width: fit-content !important;
+  }
+  .btns {
+    display: block !important;
+    margin: auto !important;
+  }
+}

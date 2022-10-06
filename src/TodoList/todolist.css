@@ -1,0 +1,159 @@
+body {
+  background-color: #fff;
+  overflow-x: hidden;
+}
+body .css-mhc70k-MuiGrid-root > .MuiGrid-item {
+  padding-left: 0px !important;
+  padding-top: 5px !important;
+}
+body .heading {
+  margin: auto;
+  margin-top: 30px;
+  font-size: 50px;
+  font-weight: 900;
+  text-align: center;
+  color: white;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+  border-bottom: 5.5px double black;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  border-radius: 10px;
+}
+body .outer {
+  color: #000000;
+  margin: auto;
+  margin-top: 50px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  text-align: center;
+}
+body .outer .inputs {
+  width: 700px;
+  text-align: center;
+  border-radius: 30px;
+  font-size: 20px;
+  margin: 10px 5px 5px 0px;
+}
+body .outer .btns {
+  height: 55px;
+  margin-top: 10px;
+  width: 104px;
+  font-size: 21px;
+  border-radius: 30px;
+}
+body .divider {
+  font-size: 24px;
+  font-weight: 100;
+  font-family: cursive;
+  margin-top: 30px;
+}
+body .css-1ws8119-MuiDivider-root::before,
+body .css-1ws8119-MuiDivider-root::after {
+  border-top: 2px solid #feefc3 !important;
+}
+body .outer2 {
+  color: #000000;
+  padding: 30px;
+  margin: auto;
+  margin-top: 50px;
+  border-radius: 30px;
+  text-align: center;
+}
+body .outer2 .vdata {
+  color: rgb(0, 0, 0);
+  background-color: white;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  word-break: break-all;
+  border: 2px solid #feefc3;
+  border-radius: 20px;
+  padding: 10px;
+  min-height: 20px;
+}
+body .outer2 .vdata .csstopic {
+  margin: 5px;
+  font-size: 25px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+body .outer2 .vdata .csscontent {
+  margin: 5px;
+  font-size: 18px;
+}
+body .outer2 .vdata .csscontent::first-letter {
+  text-transform: capitalize;
+}
+body .outer2 span {
+  margin: 5px;
+}
+body .outer2 .wrong {
+  border: none;
+  float: right;
+  margin-top: -5px;
+  padding: 2px;
+  border-radius: 30px;
+}
+
+/* For Screen Higher than 1400px */
+@media screen and (min-width: 1401px) {
+  html,
+body {
+    height: 100%;
+  }
+  html {
+    display: table;
+    margin: auto;
+  }
+  body {
+    display: table-cell;
+    vertical-align: middle;
+    width: 1899px;
+  }
+}
+@media screen and (min-width: 615px) and (max-width: 760px) {
+  .inputs {
+    width: 600px !important;
+  }
+}
+@media screen and (min-width: 505px) and (max-width: 614px) {
+  .inputs {
+    width: 500px !important;
+  }
+  .btns {
+    display: block !important;
+    margin: auto !important;
+  }
+}
+@media screen and (min-width: 405px) and (max-width: 504px) {
+  .inputs {
+    width: 400px !important;
+  }
+  .btns {
+    display: block !important;
+    margin: auto !important;
+  }
+}
+@media screen and (min-width: 305px) and (max-width: 404px) {
+  .inputs {
+    width: 300px !important;
+  }
+  .btns {
+    display: block !important;
+    margin: auto !important;
+  }
+}
+@media screen and (min-width: 0px) and (max-width: 304px) {
+  .inputs {
+    width: -webkit-fit-content !important;
+    width: -moz-fit-content !important;
+    width: fit-content !important;
+  }
+  .btns {
+    display: block !important;
+    margin: auto !important;
+  }
+}/*# sourceMappingURL=todolist.css.map */
