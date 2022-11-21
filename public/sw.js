@@ -1,4 +1,4 @@
-const staticcache = "cache-v1";
+const staticcache = "cache-v4";
 const assets = ["/", "./index.html"];
 
 self.addEventListener("install", (e) => {
